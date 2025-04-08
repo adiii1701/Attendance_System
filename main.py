@@ -11,7 +11,7 @@ from  firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL' : "https://faceattendancerealtime-2e6b8-default-rtdb.firebaseio.com/"
+    'databaseURL' : "  " #create a live databasee link from firebase console and paste it here
 })
 
 cap = cv2.VideoCapture(0)
