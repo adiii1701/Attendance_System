@@ -1,4 +1,4 @@
-Face Recognition-Based Attendance System
+# Face Recognition-Based Attendance System with live database
 
 This project is a real-time face recognition attendance system that automates the process of marking student attendance using a webcam and facial recognition technology. Built using Python, OpenCV, and the face_recognition library, it provides a seamless and efficient way to manage and log attendance without manual input.
 
@@ -14,8 +14,10 @@ This project provides a scalable and efficient solution for educational institut
 
 The project can be expanded with additional features like anti-spoofing, support for multiple cameras, and analytics dashboards for real-time monitoring.
 
-Required installations: pip install opencv-python face_recognition firebase-admin numpy cmake cvzone
-
+Required installations: 
+```bash
+pip install opencv-python face_recognition firebase-admin numpy cmake cvzone dlib
+```
 
 Reference for file structure:
 
